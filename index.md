@@ -5,7 +5,7 @@ title: Robert Strzoda
 
 # Robert Strzoda
 
-Penetration Tester | Ethical Hacker
+<b>Penetration Tester | Ethical Hacker</b>
 
 ---
 
