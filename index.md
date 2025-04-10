@@ -71,18 +71,26 @@ Here’s a list of tools I frequently use:
 
 | Tool           | Purpose                          |
 |:---------------|:---------------------------------|
-| **Burp Suite** | Web Application Security Testing |
-| **Metasploit** | Exploitation Framework           |
-| **Nmap**       | Network Scanning                 |
-| **Wireshark**  | Network Traffic Analysis         |
-| **Nikto**      | Web Server Vulnerability Scanner|
+| **Burp Suite** | Web application security testing |
+| **Sublist3r**  | Reconnaissance in web application penetration testing | 
+| **Wfuzz**      | Web application fuzzing |
+| **CyberChef**  | Data decoding, encoding, and analysis tool | 
+| **HashCat**    | Password cracking, brute force attacks | 
+| **John The Ripper** | Pasword cracking, hybrid attacks |
+| **OWASP ZAP**  | Web application security general scanning |
+| **Metasploit** | Exploitation framework           |
+| **Nmap**       | Network scanning                 |
+| **Wireshark**  | Network traffic analysis         |
+| **Scapy**      | Network packet preparation |
+| **Nikto**      | Web server vulnerability scanning |
 
 ---
 
 ## Code Snippets
 
 Here’s a snippet of a Python script I wrote to automate API endpoint scanning & fuzzing:
-'''python
+
+```python
 async def discover_api_endpoints(session, url):
     print(f"Discovering API endpoints on {url}...")
     endpoints = set()
@@ -98,7 +106,7 @@ async def discover_api_endpoints(session, url):
             # Find all forms
             for form in soup.find_all("form"):
                 action = form.get("action")
-                method = form.get("method", "GET").upper()  # Default to GET if method is not specified
+                method = form.get("method", "GET").upper()  # set default to GET if method is not specified
                 inputs = [input_tag.get("name") for input_tag in form.find_all("input")]
                 if action:
                     full_url = urljoin(url, normalize_path(action))
@@ -112,4 +120,4 @@ async def discover_api_endpoints(session, url):
     except Exception as e:
         print(f"Error discovering endpoints: {e}")
     return list(endpoints)
-'''
+```
