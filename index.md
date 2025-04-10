@@ -14,7 +14,7 @@ title: Robert Strzoda
 <div style="display: flex; align-items: center;">
   <img src="img.png" alt="Robert Strzoda" style="float: left; margin-right: 20px; height: 150px; width: 150px; border-radius: 50%;" />
   <div>
-    <p>Welcome to my portfolio! I’m a <strong>penetration tester</strong> and <strong>ethical hacker</strong> with a passion for uncovering vulnerabilities and securing systems. I stay up-to-date on the latest CVEs, attack vectors, and security trends to ensure robust protection for web applications, networks, and source code.</p>
+    <p>I’m a <strong>penetration tester</strong> and <strong>ethical hacker</strong> with a passion for uncovering vulnerabilities and securing systems. I stay up-to-date on the latest CVEs, attack vectors, and security trends to ensure robust protection for web applications, networks, and source code. I am constantly practicing by solving CTFs and deepening my knowledge, and consolidating practices in line with current cyber security trends.</p>
   </div>
 </div>
 
