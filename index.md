@@ -29,6 +29,7 @@ Here are some of the skills I bring to the table:
 - **Network Security Assessments**
 - **Vulnerability Research & Exploitation**
 - **Automation with Python & Bash**
+- **Over 2 years experience with Linux OS family** 
 
 ---
 
