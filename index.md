@@ -84,6 +84,9 @@ Here’s a list of tools I frequently use:
 | **Wireshark**  | Network traffic analysis         |
 | **Scapy**      | Network packet preparation |
 | **Nikto**      | Web server vulnerability scanning |
+| **SonarQube**  | Security Code Inspection | 
+| **XSStrike**   | My personal best XSS vulnerability discovery helper | 
+| **RADAR**      | Recon tool developed to detect resources by DNS footprint |  
 
 ---
 
