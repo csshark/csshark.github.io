@@ -35,16 +35,21 @@ Here are some of the skills I bring to the table:
 
 ## Projects
 
-### 1. **SDR-CAP**
+### 1. **AIpocalypse**
+   - Stored most of known AI payloads in a .json file.
+   - Created Python program that iterates trough payloads and sends them as an input to AI models.
+   - The number of payloads successfully completed (ERROR or leakage of confidential data) so far: 56
+   - [View on Github](https://github.com/csshark/AIpocalypse).
+### 2. **SDR-CAP**
    - Migrated OpenWifi image to grant full support from Analog Devices.
    - Customized build instruction to allow everyone develop his own solution.
    - Developed sniffer driver and compiled it into FPGA board.
    - Tools used: Vivado, gcc, bash
 
-### 2. **PenMate - my personal helper**
+### 3. **PenMate - my personal helper**
    - Developed a Python script to automate API endpoint scanning & fuzzing for web applications.
    - Developed new C drivers for Signal/Network analysis and information gathering.
-   - [View on GitHub](https://github.com/csshark/pen-mate).
+   - Created MQTT safety verification tool to enchance IoT secuirty.
 
 ---
 
