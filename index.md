@@ -31,7 +31,7 @@ Here are some of the skills I bring to the table:
 - **Automation with Python & Bash**
 - **Over 2 years experience with Linux OS family** 
 - **LLM Penetration Testing**
----
+
 
 ## Projects
 
