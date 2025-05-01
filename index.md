@@ -85,7 +85,7 @@ Let’s connect and discuss how I can help secure your infrastructure!
 
 ---
 
-## Tools I Use
+## My Tools
 
 Here’s a list of tools I frequently use:
 
@@ -118,7 +118,7 @@ Here’s a list of tools I frequently use:
 
 Here’s a snippet of a Python script I wrote to automate API endpoint scanning & fuzzing in order to solve CTF:
 
-```python
+``python
 async def fuzz_endpoint(session, endpoint, extended_scan=False):
     vulnerabilities = []
 
