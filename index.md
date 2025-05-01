@@ -118,7 +118,8 @@ Here’s a list of tools I frequently use:
 
 Here’s a snippet of a Python script I wrote to automate API endpoint scanning & fuzzing in order to solve CTF:
 
-``python
+```python
+
 async def fuzz_endpoint(session, endpoint, extended_scan=False):
     vulnerabilities = []
 
@@ -159,3 +160,4 @@ async def fuzz_endpoint(session, endpoint, extended_scan=False):
     except Exception as e:
         print(f"Error discovering endpoints: {e}")
     return list(endpoints)
+```
