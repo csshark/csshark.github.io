@@ -5,7 +5,7 @@ title: Robert Strzoda
 
 # Robert Strzoda
 
-<b>Penetration Tester | Ethical Hacker</b>
+<b>Future Purple Teamer | Cybersecurity Specialist</b>
 
 ---
 
@@ -14,7 +14,7 @@ title: Robert Strzoda
 <div style="display: flex; align-items: center;">
   <img src="img.png" alt="Robert Strzoda" style="float: left; margin-right: 20px; height: 150px; width: 150px; border-radius: 50%;" />
   <div>
-    <p>I’m a <strong>penetration tester</strong> and <strong>ethical hacker</strong> with a passion for uncovering vulnerabilities and securing systems. I stay up-to-date on the latest CVEs, attack vectors, and security trends to ensure robust protection for web applications, networks, and source code. I am constantly practicing by solving CTFs and deepening my knowledge, and consolidating practices in line with current cyber security trends.</p>
+    <p>I’m a <strong>cybersecurity specialist</strong> with a passion for both offensive and defensive security. My expertise spans penetration testing, vulnerability research, and threat detection, as well as log analysis, SIEM management, and incident response. I stay up-to-date on the latest CVEs, attack vectors, and security trends to ensure robust protection for systems and networks. I am constantly practicing by solving CTFs, participating in red and blue team exercises, and deepening my knowledge in line with current cybersecurity trends.</p>
   </div>
 </div>
 
@@ -22,35 +22,47 @@ title: Robert Strzoda
 
 ## Skills
 
-Here are some of the skills I bring to the table:
-
+### **Red Team Skills**
 - **Web Application Penetration Testing**
-- **Source Code Security Audits**
 - **Network Security Assessments**
 - **Vulnerability Research & Exploitation**
 - **Automation with Python & Bash**
-- **Over 2 years experience with Linux OS family** 
 - **LLM Penetration Testing**
 
+### **Blue Team Skills**
+- **Log Analysis & Monitoring**
+- **SIEM Management**
+- **Analyticlal Thinking**
+- **Incident Response & Forensics**
+- **Threat Intelligence & Hunting**
+- **Endpoint Detection & Response (EDR)**
+- **Security Information and Event Management (SIEM)**
+
+---
 
 ## Projects
 
 ### 1. **AIpocalypse**
-   - Stored most of known AI payloads in a .json file.
-   - Created Python program that iterates trough payloads and sends them as an input to AI models.
+   - Stored most known AI payloads in a .json file.
+   - Created Python program that iterates through payloads and sends them as input to AI models.
    - The number of payloads successfully completed (ERROR or leakage of confidential data) so far: 56
    - [View on Github](https://github.com/csshark/AIpocalypse).
 
 ### 2. **SDR-CAP**
    - Migrated OpenWifi image to grant full support from Analog Devices.
-   - Customized build instruction to allow everyone develop his own solution.
+   - Customized build instruction to allow everyone to develop their own solution.
    - Developed sniffer driver and compiled it into FPGA board.
    - Tools used: Vivado, gcc, bash
 
 ### 3. **PenMate - my personal helper**
    - Developed a Python script to automate API endpoint scanning & fuzzing for web applications.
    - Developed new C drivers for Signal/Network analysis and information gathering.
-   - Created MQTT safety verification tool to enchance IoT secuirty.
+   - Created MQTT safety verification tool to enhance IoT security.
+
+### 4. **Threat Intelligence Dashboard**
+   - Built a dashboard to aggregate and analyze threat intelligence feeds.
+   - Integrated with SIEM for real-time threat monitoring.
+   - Tools used: Python, Splunk, QRadar
 
 ---
 
@@ -59,12 +71,13 @@ Here are some of the skills I bring to the table:
 - **IBM Cybersecurity Analyst Professional Certificate**
 - **HTB CTPS (in progress)**
 - **OSCP (in progress)**
+- **CompTIA Security+ (planned)**
 
 ---
 
 ## Contact Me
 
-Let’s connect and discuss how I can help by discovering vulnerabilities in your infrastructure!
+Let’s connect and discuss how I can help secure your infrastructure!
 
 - **Email**: [rstrzoda@zohomail.eu](mailto:rstrzoda@zohomail.eu)
 - **GitHub**: [csshark](https://github.com/csshark)
@@ -83,7 +96,7 @@ Here’s a list of tools I frequently use:
 | **Wfuzz**      | Web application fuzzing |
 | **CyberChef**  | Data decoding, encoding, and analysis tool | 
 | **HashCat**    | Password cracking, brute force attacks | 
-| **John The Ripper** | Pasword cracking, hybrid attacks |
+| **John The Ripper** | Password cracking, hybrid attacks |
 | **OWASP ZAP**  | Web application security general scanning |
 | **Metasploit** | Exploitation framework           |
 | **Nmap**       | Network scanning                 |
@@ -93,6 +106,11 @@ Here’s a list of tools I frequently use:
 | **SonarQube**  | Security Code Inspection | 
 | **XSStrike**   | My personal best XSS vulnerability discovery helper | 
 | **RADAR**      | Recon tool developed to detect resources by DNS footprint |  
+| **Splunk**     | SIEM for log analysis and monitoring |
+| **QRadar**     | SIEM for threat detection and response |
+| **Lynis**      | Security auditing and compliance tool |
+| **Snort**      | Network intrusion detection system |
+| **OSSEC**      | Host-based intrusion detection system |
 
 ---
 
@@ -141,4 +159,3 @@ async def fuzz_endpoint(session, endpoint, extended_scan=False):
     except Exception as e:
         print(f"Error discovering endpoints: {e}")
     return list(endpoints)
-```
