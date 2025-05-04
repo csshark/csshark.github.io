@@ -36,7 +36,7 @@ title: Robert Strzoda
 - **Incident Response & Forensics**
 - **Threat Intelligence & Hunting**
 - **Endpoint Detection & Response (EDR)**
-- **Security Information and Event Management (SIEM)**
+- **Extended Detection & Response (XDR)**
 
 ---
 
