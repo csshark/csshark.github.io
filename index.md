@@ -22,14 +22,14 @@ title: Robert Strzoda
 
 ## Skills
 
-### **Red Team Skills**
+### **<span style="color: red;">Red</span> Team Skills**
 - **Web Application Penetration Testing**
 - **Network Security Assessments**
 - **Vulnerability Research & Exploitation**
 - **Automation with Python & Bash**
 - **LLM Penetration Testing**
 
-### **Blue Team Skills**
+### **<span style="color: blue;">Blue</span> Team Skills**
 - **Log Analysis & Monitoring**
 - **SIEM Management**
 - **Analyticlal Thinking**
