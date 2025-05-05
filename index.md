@@ -59,10 +59,10 @@ title: Robert Strzoda
    - Developed new C drivers for Signal/Network analysis and information gathering.
    - Created MQTT safety verification tool to enhance IoT security.
 
-### 4. **Threat Intelligence Dashboard**
-   - Built a dashboard to aggregate and analyze threat intelligence feeds.
-   - Integrated with SIEM for real-time threat monitoring.
-   - Tools used: Python, Splunk, QRadar
+### 4. **Threat Intelligence Predictions**
+   - Developed python program to predict what threat actor might do next.
+   - Implemented integration with AI and .json list with common hacking open-source tools.
+   - Tools used: IBM Watson, Python, js
 
 ---
 
