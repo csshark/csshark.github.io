@@ -70,7 +70,7 @@ title: Robert Strzoda
 
 - **IBM Cybersecurity Analyst Professional Certificate**
 - **HTB CTPS (in progress)**
-- **OSCP (in progress)**
+- **CPTAv2 (in progress)**
 - **CompTIA Security+ (planned)**
 
 ---
