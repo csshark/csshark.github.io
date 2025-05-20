@@ -98,11 +98,11 @@ Here’s a list of tools I frequently use:
 | **HashCat**    | Password cracking, brute force attacks | 
 | **John The Ripper** | Password cracking, hybrid attacks |
 | **OWASP ZAP**  | Web application security general scanning |
-| **Metasploit** | Exploitation framework           |
+| **Silver C2** | Post-Exploitation framework           |
 | **Nmap**       | Network scanning                 |
 | **Wireshark**  | Network traffic analysis         |
 | **Scapy**      | Network packet preparation |
-| **Nikto**      | Web server vulnerability scanning |
+| **SearchSploit**      | Exploit identification |
 | **SonarQube**  | Security Code Inspection | 
 | **XSStrike**   | My personal best XSS vulnerability discovery helper | 
 | **RADAR**      | Recon tool developed to detect resources by DNS footprint |  
