@@ -92,18 +92,20 @@ Here’s a list of tools I frequently use:
 | Tool           | Purpose                          |
 |:---------------|:---------------------------------|
 | **Burp Suite** | Web application security testing |
+| **jwt.io** | JSON Web Token (JWT) Debugger, authentication testing | 
 | **Sublist3r**  | Reconnaissance in web application penetration testing | 
 | **Wfuzz**      | Web application fuzzing |
 | **CyberChef**  | Data decoding, encoding, and analysis tool | 
 | **HashCat**    | Password cracking, brute force attacks | 
 | **John The Ripper** | Password cracking, hybrid attacks |
 | **OWASP ZAP**  | Web application security general scanning |
-| **Silver C2** | Post-Exploitation framework           |
-| **Nmap**       | Network scanning                 |
-| **Wireshark**  | Network traffic analysis         |
+| **Silver C2** | Post-Exploitation framework |
+| **Nmap**       | Network scanning |
+| **Wireshark**  | Network traffic analysis |
 | **Scapy**      | Network packet preparation |
-| **SearchSploit**      | Exploit identification |
-| **SonarQube**  | Security Code Inspection | 
+| **SearchSploit** | Exploit identification |
+| **SonarQube**  | Security Code Inspection (SAST) | 
+| **bearer** | Security Code Inspection Tool (SAST) | 
 | **XSStrike**   | My personal best XSS vulnerability discovery helper | 
 | **RADAR**      | Recon tool developed to detect resources by DNS footprint |  
 | **Splunk**     | SIEM for log analysis and monitoring |
@@ -113,6 +115,9 @@ Here’s a list of tools I frequently use:
 | **OSSEC**      | Host-based intrusion detection system |
 
 ---
+
+There is example tools and actions chain:
+nmap/RADAR -> dirb/ffuf -> Burp/jwt.io -> XSStrike, some manual payloads XSS/SQLinject etc. -> File Upload & Path Traversal -> API Tests (Burp, Postman) -> Proof of Concept and screenshots -> Reporting including CVSS scores and impact explanation -> Done.
 
 ## Code Snippets
 
