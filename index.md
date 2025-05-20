@@ -116,8 +116,8 @@ Here’s a list of tools I frequently use:
 
 ---
 
-There is example tools and actions chain:
-nmap/RADAR -> dirb/ffuf -> Burp/jwt.io -> XSStrike, some manual payloads XSS/SQLinject etc. -> File Upload & Path Traversal -> API Tests (Burp, Postman) -> Proof of Concept and screenshots -> Reporting including CVSS scores and impact explanation -> Done.
+There is (simplified) example tools and actions chain:
+<p>nmap/RADAR -> dirb/ffuf -> Burp/jwt.io -> XSStrike, some manual payloads XSS/SQLinject etc. -> File Upload & Path Traversal -> API Tests (Burp, Postman) -> Proof of Concept and screenshots -> Reporting including CVSS scores and impact explanation -> Done. </p>
 
 ## Code Snippets
 
