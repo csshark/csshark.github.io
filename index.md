@@ -29,6 +29,8 @@ title: Robert Strzoda
 - **Automation with Python & Bash**
 - **LLM Penetration Testing**
 - **PoC/Reporting**
+- **Scripting (Python,bash)**
+- **Payload Development (Ruby)**
 
 ### **<span style="color: blue;">Blue</span> Team Skills**
 - **Log Analysis & Monitoring**
@@ -38,6 +40,8 @@ title: Robert Strzoda
 - **Threat Intelligence & Hunting**
 - **Endpoint Detection & Response (EDR)**
 - **Extended Detection & Response (XDR)**
+- **Identity and Access Management(IAM)**
+- **Governance, Risk, and Compliance (GRC)**
 
 ---
 
