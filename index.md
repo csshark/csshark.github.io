@@ -74,7 +74,7 @@ title: Robert Strzoda
 ## Certifications/Certificates
 
 - **IBM Cybersecurity Analyst Professional Certificate**
-- **HTB CTPS (in progress)**
+- **BurpSuite Certified Practicioner (in progress)**
 - **CPTAv2 (in progress)**
 - **CompTIA Security+ (planned)**
 
@@ -129,7 +129,7 @@ Here’s a list of tools I frequently use:
 
 ## Code Snippets
 
-Here’s a snippet of a Python script I wrote to automate API endpoint scanning & fuzzing in order to solve CTF:
+Here’s a snippet of a Python script I wrote to automate API endpoint scanning & fuzzing in order to solve CTF (usually my scripts are Python+requests library):
 
 ```python
 
