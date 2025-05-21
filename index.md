@@ -120,6 +120,7 @@ Here’s a list of tools I frequently use:
 | 🟣 **Atomic Red Team**  | Automated attack simulations based on MITRE ATT&CK |
 | 🟣 **Velociraptor**     | Endpoint monitoring and forensic analysis |
 | 🟣 **Shodan**           | Search engine for internet-connected devices |
+
 ---
 
 ## Code Snippets
