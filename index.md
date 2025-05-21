@@ -90,36 +90,35 @@ Let’s connect and discuss how I can help secure your infrastructure!
 
 Here’s a list of tools I frequently use:
 
-| **Tool**           | **Purpose**                          |
+| **Tool**           | **Purpose**                         |
 |:-------------------|:-------------------------------------|
-| **<span style="color: blue;">SonarQube</span>** | Security Code Inspection (SAST) |
-| **<span style="color: blue;">bearer</span>** | Security Code Inspection Tool (SAST) |
-| **<span style="color: blue;">Splunk</span>** | SIEM for log analysis and monitoring |
-| **<span style="color: blue;">QRadar</span>** | SIEM for threat detection and response |
-| **<span style="color: blue;">Lynis</span>** | Security auditing and compliance tool |
-| **<span style="color: blue;">Snort</span>** | Network intrusion detection system   |
-| **<span style="color: blue;">OSSEC</span>** | Host-based intrusion detection system |
-| **<span style="color: red;">Burp Suite</span>** | Web application security testing     |
-| **<span style="color: red;">jwt.io</span>** | JSON Web Token (JWT) Debugger        |
-| **<span style="color: red;">Sublist3r</span>** | Reconnaissance in web penetration testing |
-| **<span style="color: red;">Wfuzz</span>** | Web application fuzzing              |
-| **<span style="color: red;">HashCat</span>** | Password cracking, brute force attacks |
-| **<span style="color: red;">John The Ripper</span>** | Password cracking, hybrid attacks    |
-| **<span style="color: red;">OWASP ZAP</span>** | Web application security general scanning |
-| **<span style="color: red;">Silver C2</span>** | Post-Exploitation framework          |
-| **<span style="color: red;">SearchSploit</span>** | Exploit identification                |
-| **<span style="color: red;">XSStrike</span>** | XSS vulnerability discovery helper   |
-| **<span style="color: red;">RADAR</span>** | DNS footprint-based resource detection |
-| **<span style="color: purple;">CyberChef</span>** | Data decoding, encoding, and analysis |
-| **<span style="color: purple;">Nmap</span>** | Network scanning                     |
-| **<span style="color: purple;">Wireshark</span>** | Network traffic analysis             |
-| **<span style="color: purple;">Scapy</span>** | Network packet preparation           |
-| **<span style="color: purple;">Nessus</span>** | Vulnerability scanning and assessment |
-| **<span style="color: purple;">OpenVAS</span>** | Vulnerability scanning and management |
-| **<span style="color: purple;">Atomic Red Team</span>** | Automated attack simulations based on MITRE ATT&CK |
-| **<span style="color: purple;">Velociraptor</span>** | Endpoint monitoring and forensic analysis |
-| **<span style="color: purple;">Shodan</span>** | Search engine for internet-connected devices |
-
+| 🔵 **SonarQube**        | Security Code Inspection (SAST)     |
+| 🔵 **bearer**           | Security Code Inspection Tool (SAST) |
+| 🔵 **Splunk**           | SIEM for log analysis and monitoring |
+| 🔵 **QRadar**           | SIEM for threat detection and response |
+| 🔵 **Lynis**            | Security auditing and compliance tool |
+| 🔵 **Snort**            | Network intrusion detection system   |
+| 🔵 **OSSEC**            | Host-based intrusion detection system |
+| 🔴 **Burp Suite**       | Web application security testing     |
+| 🔴 **jwt.io**           | JSON Web Token (JWT) Debugger        |
+| 🔴 **Sublist3r**        | Reconnaissance in web penetration testing |
+| 🔴 **Wfuzz**            | Web application fuzzing              |
+| 🔴 **HashCat**          | Password cracking, brute force attacks |
+| 🔴 **John The Ripper**  | Password cracking, hybrid attacks    |
+| 🔴 **OWASP ZAP**        | Web application security general scanning |
+| 🔴 **Silver C2**        | Post-Exploitation framework          |
+| 🔴 **SearchSploit**     | Exploit identification                |
+| 🔴 **XSStrike**         | XSS vulnerability discovery helper   |
+| 🔴 **RADAR**            | DNS footprint-based resource detection |
+| 🟣 **CyberChef**        | Data decoding, encoding, and analysis |
+| 🟣 **Nmap**             | Network scanning                     |
+| 🟣 **Wireshark**        | Network traffic analysis             |
+| 🟣 **Scapy**            | Network packet preparation           |
+| 🟣 **Nessus**           | Vulnerability scanning and assessment |
+| 🟣 **OpenVAS**          | Vulnerability scanning and management |
+| 🟣 **Atomic Red Team**  | Automated attack simulations based on MITRE ATT&CK |
+| 🟣 **Velociraptor**     | Endpoint monitoring and forensic analysis |
+| 🟣 **Shodan**           | Search engine for internet-connected devices |
 ---
 
 ## Code Snippets
