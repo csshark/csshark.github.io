@@ -28,6 +28,7 @@ title: Robert Strzoda
 - **Vulnerability Research & Exploitation**
 - **Automation with Python & Bash**
 - **LLM Penetration Testing**
+- **PoC/Reporting**
 
 ### **<span style="color: blue;">Blue</span> Team Skills**
 - **Log Analysis & Monitoring**
