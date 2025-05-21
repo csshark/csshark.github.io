@@ -110,6 +110,7 @@ Here’s a list of tools I frequently use:
 | 🔴 **SearchSploit**     | Exploit identification                |
 | 🔴 **XSStrike**         | XSS vulnerability discovery helper   |
 | 🔴 **RADAR**            | DNS footprint-based resource detection |
+| 🔴 **DeepSeek AI**      | Exploit research, offensive security tasks, payloads |
 | 🟣 **CyberChef**        | Data decoding, encoding, and analysis |
 | 🟣 **Nmap**             | Network scanning                     |
 | 🟣 **Wireshark**        | Network traffic analysis             |
