@@ -89,35 +89,34 @@ Let’s connect and discuss how I can help secure your infrastructure!
 
 Here’s a list of tools I frequently use:
 
-| Tool           | Purpose                          |
-|:---------------|:---------------------------------|
-| **Burp Suite** | Web application security testing |
-| **jwt.io** | JSON Web Token (JWT) Debugger, authentication testing | 
-| **Sublist3r**  | Reconnaissance in web application penetration testing | 
-| **Wfuzz**      | Web application fuzzing |
-| **CyberChef**  | Data decoding, encoding, and analysis tool | 
-| **HashCat**    | Password cracking, brute force attacks | 
-| **John The Ripper** | Password cracking, hybrid attacks |
-| **OWASP ZAP**  | Web application security general scanning |
-| **Silver C2** | Post-Exploitation framework |
-| **Nmap**       | Network scanning |
-| **Wireshark**  | Network traffic analysis |
-| **Scapy**      | Network packet preparation |
-| **SearchSploit** | Exploit identification |
-| **SonarQube**  | Security Code Inspection (SAST) | 
-| **bearer** | Security Code Inspection Tool (SAST) | 
-| **XSStrike**   | My personal best XSS vulnerability discovery helper | 
-| **RADAR**      | Recon tool developed to detect resources by DNS footprint |  
-| **Splunk**     | SIEM for log analysis and monitoring |
-| **QRadar**     | SIEM for threat detection and response |
-| **Lynis**      | Security auditing and compliance tool |
-| **Snort**      | Network intrusion detection system |
-| **OSSEC**      | Host-based intrusion detection system |
+| **Tool**           | **Purpose**                          |
+|:-------------------|:-------------------------------------|
+| <span style="color:blue">**SonarQube**</span>      | Security Code Inspection (SAST)      |
+| <span style="color:blue">**bearer**</span>         | Security Code Inspection Tool (SAST) |
+| <span style="color:blue">**Splunk**</span>         | SIEM for log analysis and monitoring |
+| <span style="color:blue">**QRadar**</span>         | SIEM for threat detection and response |
+| <span style="color:blue">**Lynis**</span>          | Security auditing and compliance tool |
+| <span style="color:blue">**Snort**</span>          | Network intrusion detection system   |
+| <span style="color:blue">**OSSEC**</span>          | Host-based intrusion detection system |
+| <span style="color:red">**Burp Suite**</span>     | Web application security testing     |
+| <span style="color:red">**jwt.io**</span>         | JSON Web Token (JWT) Debugger        |
+| <span style="color:red">**Sublist3r**</span>      | Reconnaissance in web penetration testing |
+| <span style="color:red">**Wfuzz**</span>          | Web application fuzzing              |
+| <span style="color:red">**HashCat**</span>        | Password cracking, brute force attacks |
+| <span style="color:red">**John The Ripper**</span>| Password cracking, hybrid attacks    |
+| <span style="color:red">**OWASP ZAP**</span>      | Web application security general scanning |
+| <span style="color:red">**Silver C2**</span>      | Post-Exploitation framework          |
+| <span style="color:red">**SearchSploit**</span>   | Exploit identification                |
+| <span style="color:red">**XSStrike**</span>       | XSS vulnerability discovery helper   |
+| <span style="color:red">**RADAR**</span>          | DNS footprint-based resource detection |
+| <span style="color:purple">**CyberChef**</span>      | Data decoding, encoding, and analysis |
+| <span style="color:purple">**Nmap**</span>           | Network scanning                     |
+| <span style="color:purple">**Wireshark**</span>      | Network traffic analysis             |
+| <span style="color:purple">**Scapy**</span>          | Network packet preparation           |
+| <span style="color:purple">**Nessus**</span>         | Vulnerability scanning and assessment |
+| <span style="color:purple">**OpenVAS**</span>        | Vulnerability scanning and management |
 
 ---
-
-There is (simplified) example tools and actions chain:
-<p>nmap/RADAR -> dirb/ffuf -> Burp/jwt.io -> XSStrike, some manual payloads XSS/SQLinject etc. -> File Upload & Path Traversal -> API Tests (Burp, Postman) -> Proof of Concept and screenshots -> Reporting including CVSS scores and impact explanation -> Done. </p>
 
 ## Code Snippets
 
