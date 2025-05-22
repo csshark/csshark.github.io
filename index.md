@@ -5,7 +5,7 @@ title: Robert Strzoda
 
 # Robert Strzoda
 
-<b>Future Purple Teamer | Cybersecurity Analyst</b>
+<b>Future Purple Teamer | Security Engineer</b>
 
 ---
 
@@ -14,7 +14,7 @@ title: Robert Strzoda
 <div style="display: flex; align-items: center;">
   <img src="img.png" alt="Robert Strzoda" style="float: left; margin-right: 20px; height: 150px; width: 150px; border-radius: 50%;" />
   <div>
-    <p>I’m a <strong>cybersecurity analyst</strong> with a passion for both offensive and defensive security. My expertise spans penetration testing, vulnerability research, and threat detection, as well as log analysis, SIEM management, and incident response. I stay up-to-date on the latest CVEs, attack vectors, and security trends to ensure robust protection for systems and networks. I am constantly practicing by solving CTFs, participating in red and blue team exercises, and deepening my knowledge in line with current cybersecurity trends.</p>
+    <p>I’m a <strong>cybersecurity engineer</strong> with a passion for both offensive and defensive security. My expertise spans penetration testing, vulnerability research, and threat detection, as well as log analysis, SIEM management, and incident response. I stay up-to-date on the latest CVEs, attack vectors, and security trends to ensure robust protection for systems and networks. I am constantly practicing by solving CTFs, participating in red and blue team exercises, and deepening my knowledge in line with current cybersecurity trends.</p>
   </div>
 </div>
 
