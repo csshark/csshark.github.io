@@ -97,6 +97,7 @@ Here’s a list of tools I frequently use:
 | **Tool**           | **Purpose**                         |
 |:-------------------|:-------------------------------------|
 | 🔵 **SonarQube**        | Security Code Inspection (SAST)     |
+| 🔵 **ELK Stack**   | Log analytics, document search, security information and event management (SIEM) |  
 | 🔵 **bearer**           | Security Code Inspection Tool (SAST) |
 | 🔵 **Splunk**           | SIEM for log analysis and monitoring |
 | 🔵 **QRadar**           | SIEM for threat detection and response |
