@@ -71,6 +71,22 @@ title: Robert Strzoda
 
 ---
 
+## ☁️ Cloud Environments I worked with
+
+<p align="left">
+  <a href="https://aws.amazon.com/" target="_blank">
+    <img src="https://www.logo.wine/a/logo/Amazon_Web_Services/Amazon_Web_Services-Logo.wine.svg" alt="AWS" width="50" height="50"/>
+  </a>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://azure.microsoft.com/" target="_blank">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" alt="Azure" width="50" height="50"/>
+  </a>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://cloud.google.com/" target="_blank">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" alt="Google Cloud" width="50" height="50"/>
+  </a>
+</p>
+
 ## Certifications/Certificates
 
 - **IBM Cybersecurity Analyst Professional Certificate**
