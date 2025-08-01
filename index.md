@@ -59,10 +59,10 @@ title: Robert Strzoda
    - Developed sniffer driver and compiled it into FPGA board.
    - Tools used: Vivado, gcc, bash
 
-### 3. **PenMate - my personal helper**
-   - Developed a Python script to automate API endpoint scanning & fuzzing for web applications.
-   - Developed new C drivers for Signal/Network analysis and information gathering.
-   - Created MQTT safety verification tool to enhance IoT security.
+### 3. **FormPoison - Form Inputs Fuzzer**
+   - Created payloads file and separated them into categories.
+   - Devoloped python script to find web frameworks, bad headers and support cookie verification.
+   - Tools used: python, python-requests.
 
 ### 4. **Threat Intelligence Predictions**
    - Developed python program to predict what threat actor might do next.
@@ -115,6 +115,7 @@ Here’s a list of tools I frequently use:
 | 🔵 **SonarQube**        | Security Code Inspection (SAST)     |
 | 🔵 **ELK Stack**   | Log analytics, document search, security information and event management (SIEM) |  
 | 🔵 **bearer**           | Security Code Inspection Tool (SAST) |
+| 🔵 **Fortify**          | Static Code Analyzer                 |
 | 🔵 **Splunk**           | SIEM for log analysis and monitoring |
 | 🔵 **QRadar**           | SIEM for threat detection and response |
 | 🔵 **Lynis**            | Security auditing and compliance tool |
