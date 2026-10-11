@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080d10">
+  <meta name="description" content="Robert Strzoda (csshark) — cybersecurity specialist focused on Red Teaming, Purple Teaming, vulnerability research and adversary emulation.">
+  <title>CSSHARK — Robert Strzoda | Cybersecurity Specialist</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="site-shell">
+    <header class="topbar">
+      <a class="brand" href="#top" aria-label="CSSHARK home">
+        <span class="brand-mark" aria-hidden="true">〽</span>
+        <span class="brand-name">C S S H A R K</span>
+        <span class="brand-divider"></span>
+        <span class="brand-sub"><span data-i18n="name">ROBERT STRZODA</span><br><span data-i18n="role">CYBERSECURITY SPECIALIST</span></span>
+      </a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="#research" data-i18n="navResearch">RESEARCH</a>
+        <a href="#milestones" data-i18n="navMilestones">MILESTONES</a>
+        <a href="#talks" data-i18n="navTalks">TALKS</a>
+      </nav>
+      <div class="language-switch" aria-label="Language">
+        <button type="button" data-lang="pl" aria-pressed="false">PL</button><span>/</span><button type="button" data-lang="en" aria-pressed="true">EN</button>
+      </div>
+      <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-line"></span><span data-i18n="heroEyebrow">SECURITY / RESEARCH / ADVERSARY EMULATION</span></p>
+          <h1><span data-i18n="heroLine1">Breaking assumptions.</span><br><em data-i18n="heroLine2">Building resilience.</em></h1>
+          <p class="hero-specialties" data-i18n="heroSpecialties">Red Teaming <b>·</b> Purple Teaming <b>·</b> Vulnerability Research</p>
+          <div class="hero-actions">
+            <a class="outline-button" href="#milestones"><span data-i18n="explore">EXPLORE MY JOURNEY</span><span class="arrow">↗</span></a>
+            <a class="scroll-link" href="#research"><span class="scroll-rule"></span><span data-i18n="scroll">SCROLL TO EXPLORE</span></a>
+          </div>
+        </div>
+        <div class="hero-art" aria-hidden="true">
+          <div class="radar">
+            <span class="radar-ring ring-1"></span><span class="radar-ring ring-2"></span><span class="radar-ring ring-3"></span><span class="radar-ring ring-4"></span>
+            <span class="radar-cross cross-x"></span><span class="radar-cross cross-y"></span>
+            <span class="radar-sweep"></span><i class="node n1"></i><i class="node n2"></i><i class="node n3"></i><i class="node n4"></i><i class="node n5"></i>
+            <span class="radar-core"></span>
+          </div>
+          <div class="hero-mantra">ANALYZE<br>EMULATE<br>IMPROVE<br>REPEAT</div>
+          <div class="coordinates">52.2297° N<br>21.0122° E</div>
+          <div class="mesh"></div>
+        </div>
+      </section>
+
+      <section class="section-block" id="milestones">
+        <div class="section-heading">
+          <h2><span class="heading-dash"></span><span data-i18n="featured">FEATURED MILESTONES</span></h2>
+          <span class="section-index">01 — 04</span>
+        </div>
+        <div class="milestone-grid">
+          <article class="milestone-card" id="research">
+            <div class="card-visual visual-cve"><span class="visual-label">DISCLOSURE / 001</span><div class="abstract-network"></div></div>
+            <div class="card-content">
+              <p class="card-kicker" data-i18n="cveKicker">VULNERABILITY DISCLOSURE</p>
+              <h3>CVE-2026-92419</h3>
+              <p class="card-meta">WEBCON BPS · IDOR · CWE-639</p>
+              <p class="card-description" data-i18n="cveDesc">An authorization flaw in the vacation-scheduling API could expose other employees’ vacation schedules to an authenticated user.</p>
+              <a class="card-link" href="https://cert.pl/en/posts/2026/09/CVE-2026-92419/" target="_blank" rel="noopener noreferrer"><span data-i18n="readAdvisory">READ CERT POLSKA ADVISORY</span><span>↗</span></a>
+            </div>
+          </article>
+
+          <article class="milestone-card">
+            <div class="card-visual visual-formpoison"><span class="terminal-mini">formpoison<span class="terminal-cursor">_</span><br><small>research / tooling</small></span><span class="visual-mark">FP</span></div>
+            <div class="card-content">
+              <p class="card-kicker" data-i18n="toolKicker">TOOL / MEDIA COVERAGE</p>
+              <h3>FormPoison</h3>
+              <p class="card-meta" data-i18n="formMeta">SECURITY TOOL · PUBLICATION</p>
+              <p class="card-description" data-i18n="formDesc">A security tool featured in an article by Black Hat Ethical Hacking. The article link can be added here when ready.</p>
+              <a class="card-link" href="https://github.com/csshark/FormPoison" target="_blank" rel="noopener noreferrer"><span data-i18n="viewProject">VIEW PROJECT</span><span>↗</span></a>
+            </div>
+          </article>
+
+          <article class="milestone-card" id="talks">
+            <div class="card-visual visual-talk"><div class="audience"></div><span class="talk-title">OFFSEC<br><b>WARSAW</b></span><span class="visual-label">COMMUNITY / 0x03</span></div>
+            <div class="card-content">
+              <p class="card-kicker" data-i18n="talkKicker">PURPLE TEAMING</p>
+              <h3>OffSec Warsaw Chapter 0x03</h3>
+              <p class="card-meta" data-i18n="talkMeta">SPEAKER · RAILWAY ENVIRONMENT</p>
+              <p class="card-description" data-i18n="talkDesc">Talk on Purple Teaming in a railway environment, connecting adversary emulation with defensive validation.</p>
+              <span class="card-link card-link-static"><span data-i18n="speakerMilestone">SPEAKING MILESTONE</span><span>↗</span></span>
+            </div>
+          </article>
+
+          <article class="milestone-card">
+            <div class="card-visual visual-drone"><span class="visual-label">ENGINEERING / 2024</span><div class="drone-silhouette">✣</div></div>
+            <div class="card-content">
+              <p class="card-kicker" data-i18n="awardKicker">UNMANNED SYSTEMS / RECOGNITION</p>
+              <h3 data-i18n="awardTitle">Ministry of National Defence</h3>
+              <p class="card-meta" data-i18n="awardMeta">1ST & 2ND PLACE · 2024</p>
+              <p class="card-description" data-i18n="awardDesc">Placed 1st and 2nd in a Minister of National Defence competition for unmanned aerial, land and water vehicles. The winning drone was presented to the President.</p>
+              <a class="card-link" href="https://www.prezydent.pl/kancelaria/archiwum/andrzej-duda/aktualnosci/wydarzenia/uroczystosc-z-okazji-dnia-podchorazego,94910" target="_blank" rel="noopener noreferrer"><span data-i18n="officialCoverage">OFFICIAL PRESIDENTIAL WEBSITE</span><span>↗</span></a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-block timeline-section">
+        <div class="section-heading">
+          <h2><span class="heading-dash"></span><span data-i18n="timelineTitle">CAREER TIMELINE</span></h2>
+          <span class="live-note"><i></i><span data-i18n="keyMoments">KEY MOMENTS</span></span>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item">
+            <span class="timeline-icon">⌁</span><p class="timeline-year">FOUNDATION</p><h3 data-i18n="tl1Title">Foundation</h3><p data-i18n="tl1Desc">Started building a cybersecurity foundation through labs, learning and practical skills.</p>
+          </article>
+          <article class="timeline-item">
+            <span class="timeline-icon">◇</span><p class="timeline-year">RED / PURPLE TEAM</p><h3 data-i18n="tl2Title">Red & Purple Teaming</h3><p data-i18n="tl2Desc">Hands-on experience in Red Team operations, adversary emulation and Purple Team campaigns.</p>
+          </article>
+          <article class="timeline-item">
+            <span class="timeline-icon">♜</span><p class="timeline-year">2024</p><h3 data-i18n="tl3Title">Engineering & Recognition</h3><p data-i18n="tl3Desc">1st and 2nd place in the Ministry of National Defence competition for unmanned vehicles.</p>
+          </article>
+          <article class="timeline-item">
+            <span class="timeline-icon">⌘</span><p class="timeline-year">RESEARCH / TOOLS</p><h3 data-i18n="tl4Title">Research & Tools</h3><p data-i18n="tl4Desc">Developed FormPoison and received media coverage for the tool.</p>
+          </article>
+          <article class="timeline-item">
+            <span class="timeline-icon">◉</span><p class="timeline-year">2026</p><h3 data-i18n="tl5Title">CVE & Speaking</h3><p data-i18n="tl5Desc">CVE-2026-92419 published by CERT Polska; speaking at OffSec Warsaw Chapter 0x03, MSHP 2026 and THS 2026.</p>
+          </article>
+          <article class="timeline-item timeline-next">
+            <span class="timeline-icon">◎</span><p class="timeline-year" data-i18n="nextYear">IN PROGRESS</p><h3 data-i18n="tl6Title">Physical Red Teaming</h3><p data-i18n="tl6Desc">Preparing for an exam from Red Teamers and developing skills in Physical Red Teaming.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-block lower-grid">
+        <div class="panel" id="physical">
+          <div class="section-heading"><h2><span class="heading-dash"></span><span data-i18n="physicalTitle">PHYSICAL RED TEAMING</span></h2></div>
+          <div class="physical-placeholder">
+            <div class="placeholder-cross">+</div><div class="placeholder-copy"><span data-i18n="photoPlaceholder">FIELD PHOTO / TO BE ADDED</span><small data-i18n="photoHint">Replace this panel with your own photo. Avoid exposing sensitive locations, badges or access details.</small></div>
+          </div>
+          <p class="panel-copy" data-i18n="physicalDesc">Currently developing skills in Physical Red Teaming and preparing for an exam from Red Teamers. This is a learning milestone, not a claimed certification.</p>
+        </div>
+        <div class="panel">
+          <div class="section-heading"><h2><span class="heading-dash"></span><span data-i18n="communityTitle">TALKS & COMMUNITY</span></h2></div>
+          <div class="talk-list">
+            <div class="talk-row"><span class="talk-year">2026</span><div><h3>MSHP 2026</h3><p data-i18n="speakerLabel">Speaker</p></div><span class="talk-symbol">↗</span></div>
+            <div class="talk-row"><span class="talk-year">2026</span><div><h3>THS 2026</h3><p data-i18n="speakerLabel">Speaker</p></div><span class="talk-symbol">↗</span></div>
+            <div class="talk-row"><span class="talk-year">0x03</span><div><h3>OffSec Warsaw Chapter</h3><p data-i18n="railwayTalk">Purple Teaming in a railway environment</p></div><span class="talk-symbol">↗</span></div>
+          </div>
+          <p class="small-note" data-i18n="talkLinkNote">Add event pages, slides or recordings when you have public links.</p>
+        </div>
+      </section>
+
+      <section class="contact-band">
+        <p class="eyebrow"><span class="eyebrow-line"></span><span data-i18n="contactEyebrow">OPEN TO TECHNICAL CONVERSATIONS</span></p>
+        <h2 data-i18n="contactTitle">Let’s make security<br><em>measurably better.</em></h2>
+        <div class="contact-actions">
+          <a class="outline-button" href="mailto:rstrzoda@zohomail.eu"><span data-i18n="contactMe">GET IN TOUCH</span><span class="arrow">↗</span></a>
+          <a class="text-link" href="https://www.linkedin.com/in/robertstrzoda" target="_blank" rel="noopener noreferrer">LINKEDIN ↗</a>
+          <a class="text-link" href="https://github.com/csshark" target="_blank" rel="noopener noreferrer">GITHUB ↗</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <a class="footer-brand" href="#top">C S S H A R K</a><span class="footer-divider"></span><span>ROBERT STRZODA</span>
+      <span class="footer-motto" data-i18n="footerMotto">BETTER DEFENSES. STRONGER TOMORROW.</span><a class="back-top" href="#top" aria-label="Back to top">↑</a>
+    </footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
